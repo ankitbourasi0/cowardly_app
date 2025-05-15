@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "249257812971",
+    "project_id": "cowardly-app",
+    "storage_bucket": "cowardly-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249257812971:android:09807ed6fa83d04cb42fae",
+        "android_client_info": {
+          "package_name": "com.msquare.cowardly_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249257812971-ap53ncgkin9v0afkifpu6qdanc9itdta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.msquare.cowardly_app",
+            "certificate_hash": "b4ace0580457517b4079a879c66026b50e655680"
+          }
+        },
+        {
+          "client_id": "249257812971-0m19o76r9c0j6o8d2jppprg27ba9i37r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiaGnITN2R3y3JRJreZoE44c88GyDQ5V0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249257812971-0m19o76r9c0j6o8d2jppprg27ba9i37r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

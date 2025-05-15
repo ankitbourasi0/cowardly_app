@@ -1,0 +1,1 @@
+ffmpeg -i "D:\Flutter Project\cowardly_app_automation\Dragont Tales - Talent Pool.mp4" -vf format=yuv420p -c:v libx264 -preset fast -crf 23 -c:a aac -b:a 128k -movflags +faststart Dragon-Tales-Talent-Pool-output.mp4
