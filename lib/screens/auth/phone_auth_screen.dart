@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
 class PhoneAuthScreen extends StatefulWidget {
+  const PhoneAuthScreen({super.key});
+
   @override
   _PhoneAuthScreenState createState() => _PhoneAuthScreenState();
 }
@@ -46,15 +48,15 @@ class _PhoneAuthScreenState extends State<PhoneAuthScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Phone Authentication')),
+      appBar: AppBar(title: const Text('Phone Authentication')),
       body: Padding(
-        padding: EdgeInsets.all(16),
+        padding: const EdgeInsets.all(16),
         child: Column(
           children: [
-            TextField(controller: phoneController, decoration: InputDecoration(labelText: 'Phone Number')),
-            ElevatedButton(onPressed: verifyPhone, child: Text('Verify')),
-            TextField(controller: otpController, decoration: InputDecoration(labelText: 'OTP')),
-            ElevatedButton(onPressed: signInWithOTP, child: Text('Sign In')),
+            TextField(controller: phoneController, decoration: const InputDecoration(labelText: 'Phone Number')),
+            ElevatedButton(onPressed: verifyPhone, child: const Text('Verify')),
+            TextField(controller: otpController, decoration: const InputDecoration(labelText: 'OTP')),
+            ElevatedButton(onPressed: signInWithOTP, child: const Text('Sign In')),
           ],
         ),
       ),
