@@ -31,6 +31,8 @@ migrate_working_dir/
 .pub/
 /build/
 
+
+
 # Symbolication related
 app.*.symbols
 
@@ -45,4 +47,4 @@ app.*.map.json
 
 #Exclude node modules
 /upload_data/node_modules
-/git filter-repo --path upload_data/serviceAccountKey.json --invert-pathsupload_data/serviceAccountKey.json
+/upload_data/serviceAccountKey.json

@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
         '/profile': (context) => const ProfileScreen(),
         '/feed': (context) => const HomeScreen(),
         '/home': (context)=> const MainNavigationScreen(),
-        '/category': (context) => NetflixStyleHome(),
+        '/category': (context) => CategoryScreen(),
         // '/upload': (context) => const UploadVideoScreen(),
       },
     );
@@ -82,10 +82,10 @@ class _MainNavigationScreenState extends State<MainNavigationScreen> {
   int _selectedIndex = 0;
 
   static final List<Widget> _screens = <Widget>[
-    HomeScreen(),
+    const HomeScreen(),
     // UploadVideoScreen(),
-    NetflixStyleHome(),
-    ProfileScreen()
+    CategoryScreen(),
+    const ProfileScreen()
   ];
 
   void _onItemTapped(int index) {

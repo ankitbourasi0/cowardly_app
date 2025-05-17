@@ -7,7 +7,7 @@ class ChewieVideoPlayerPage extends StatefulWidget {
   final String description;
   final String videoUrl;
 
-  const ChewieVideoPlayerPage({
+  const ChewieVideoPlayerPage({super.key,
     required this.title,
     required this.description,
     required this.videoUrl,
