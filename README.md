@@ -1,4 +1,4 @@
-# cowardly_app
+# Cowardly Video Delivery App Backed by Firebase
 
 A new Flutter project.
 
